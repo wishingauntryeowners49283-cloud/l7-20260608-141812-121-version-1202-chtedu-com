@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索 - 一本影视</title>
+    <meta name="description" content="搜索一本影视片库中的影片名称、地区、类型、年份、标签和简介内容。">
+    <meta name="keywords" content="国产,视频,经典影片,电影合集,免费资源,在线播放,影视作品,影迷收藏,片单,整理,推荐,资源,平台">
+    <meta name="robots" content="index,follow">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="一本影视首页">
+            <span class="brand-mark">影</span>
+            <span class="brand-text">
+                <strong>一本影视</strong>
+                <small>经典国产影片视频合集</small>
+            </span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类</a>
+            <a class="nav-link" href="./ranking.html">热播榜</a>
+            <a class="nav-link active" href="./search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="搜索影片、类型、年份..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="mobile-menu-button" type="button" aria-label="打开导航" data-menu-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-nav" data-mobile-nav>
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./ranking.html">热播榜</a>
+        <a href="./search.html">搜索</a>
+        <form action="./search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="输入关键词搜索">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</header>
+<main>
+    <section class="sub-hero search-hero">
+        <div>
+            <span>Search</span>
+            <h1>搜索影片</h1>
+            <p>输入片名、类型、地区、年份或标签，快速定位影片详情页。</p>
+        </div>
+    </section>
+
+    <section class="content-section wide">
+        <div class="search-page-box">
+            <form class="search-page-form" data-global-search-form>
+                <input type="search" name="q" placeholder="例如：爱情、悬疑、2025、中国大陆" autocomplete="off" data-global-search-input>
+                <button type="submit">立即搜索</button>
+            </form>
+            <div class="search-meta">共收录 <strong>2000</strong> 部影片，搜索结果可直达影片详情页。</div>
+        </div>
+        <div class="movie-grid large-grid" data-search-results></div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <div class="brand-row">
+                <span class="brand-mark small">影</span>
+                <strong>一本影视</strong>
+            </div>
+            <p>本合集收录了历年经典国产影片视频资源，包括众多优秀国产电影和影视作品，支持免费在线播放，帮助影迷轻松收藏和观看心仪内容。本站提供国产影视作品的资料整理与在线观看服务。</p>
+        </div>
+        <div class="footer-columns">
+            <section>
+                <h3>快速导航</h3>
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">分类总览</a>
+                <a href="./ranking.html">热播榜</a>
+                <a href="./search.html">搜索影片</a>
+            </section>
+            <section>
+                <h3>片库入口</h3>
+                <a href="./category-classic.html">经典片库</a><a href="./category-romance.html">爱情剧场</a><a href="./category-suspense.html">悬疑惊悚</a><a href="./category-comedy.html">喜剧时光</a><a href="./category-action.html">动作热血</a><a href="./category-family.html">家庭治愈</a>
+            </section>
+        </div>
+    </div>
+</footer>
+<script src="./assets/site.js"></script>
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
